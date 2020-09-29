@@ -94,7 +94,7 @@ section h2 {
 }
 /* Section Images */
 section#home {
-	background: url("images/nigel.jpg") no-repeat center center/cover;
+	background: url("images/Nigel.jpg") no-repeat center center/cover;
 	/* Set a specific height */
 	min-height: 500px;
 	/* Create the parallax scrolling effect */
@@ -193,7 +193,7 @@ button {
 }
 
 section#contact {
-	background: url("images/stone.jpg") no-repeat center center/cover;
+	background: url("images/Stone.jpg") no-repeat center center/cover;
 	/* Set a specific height */
 	min-height: 500px;
 	/* Create the parallax scrolling effect */
