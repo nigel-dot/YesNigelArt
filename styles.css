@@ -249,4 +249,7 @@ section#contact {
 		color: white;
 		font-size: 2rem;
 	}
+	.lead {
+		font-size: 1rem;
+	}
 }
