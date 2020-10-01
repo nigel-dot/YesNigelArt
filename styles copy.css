@@ -95,12 +95,33 @@ section h2 {
 /* Section Images */
 section#home {
 	background-image: url("images/Nigel.jpg");
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 section#about {
 	background-image: url("images/Angry Sea.jpg");
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 section#art {
 	background-image: url("images/grass.jpg");
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .cards {
 	display: grid;
@@ -173,8 +194,6 @@ button {
 
 section#contact {
 	background-image: url("images/Stone.jpg");
-}
-.sectionImage {
 	/* Set a specific height */
 	min-height: 500px;
 	/* Create the parallax scrolling effect */
