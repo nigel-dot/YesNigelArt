@@ -94,7 +94,7 @@ section h2 {
 }
 /* Section Images */
 section#home {
-	background: url("images/Nigel.jpg") no-repeat center center/cover;
+	background-image: url("images/Nigel.jpg") no-repeat center center/cover;
 	/* Set a specific height */
 	min-height: 500px;
 	/* Create the parallax scrolling effect */
@@ -104,7 +104,7 @@ section#home {
 	background-size: cover;
 }
 section#about {
-	background: url("images/Angry Sea.jpg");
+	background-image: url("images/Angry Sea.jpg");
 	/* Set a specific height */
 	min-height: 500px;
 	/* Create the parallax scrolling effect */
@@ -114,7 +114,7 @@ section#about {
 	background-size: cover;
 }
 section#art {
-	background: url("images/grass.jpg") no-repeat center center/cover;
+	background-image: url("images/grass.jpg") no-repeat center center/cover;
 	/* Set a specific height */
 	min-height: 500px;
 	/* Create the parallax scrolling effect */
@@ -193,7 +193,7 @@ button {
 }
 
 section#contact {
-	background: url("images/Stone.jpg") no-repeat center center/cover;
+	background-image: url("images/Stone.jpg") no-repeat center center/cover;
 	/* Set a specific height */
 	min-height: 500px;
 	/* Create the parallax scrolling effect */
@@ -251,5 +251,17 @@ section#contact {
 	}
 	.lead {
 		font-size: 1rem;
+	}
+	section#home {
+		background-attachment: initial;
+	}
+	section#about {
+		background-attachment: initial;
+	}
+	section#art {
+		background-attachment: initial;
+	}
+	section#contact {
+		background-attachment: initial;
 	}
 }
