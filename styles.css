@@ -234,4 +234,19 @@ section#contact {
 		max-width: 350px;
 		max-height: 350px;
 	}
+	section h2 {
+		font-size: 10vh;
+	}
+	.navbar ul li {
+		margin: 0 0.5rem;
+		padding: 0.5rem;
+	}
+	#about {
+		color: white;
+		font-size: 2rem;
+	}
+	#art {
+		color: white;
+		font-size: 2rem;
+	}
 }
